@@ -1,0 +1,59 @@
+#NombreHome{
+    text-align: center;
+    margin-top: 10%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#huella{
+     margin-left: 54%;
+     margin-top: -4%;
+     margin-bottom: -1%;
+     transform: rotate(35deg);
+     width: 3%;
+     display: flex;
+   
+}
+
+#divUserName{
+    text-align: center;  
+    margin-top: 5%;
+}
+
+.CajaUser{
+    color: gray;
+
+}
+
+#divPassword{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.inputBox{
+    margin-left: -3%;
+}
+
+#loginButton{
+    text-align: center;
+    margin-left: 48%;
+    margin-top: 4%;
+}
+
+#linea{
+    text-align: center;
+    color: gray;
+    margin-top: 5%;
+}
+
+#dh{
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#loginButton{
+    color: black;
+}
