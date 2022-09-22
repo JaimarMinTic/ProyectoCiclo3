@@ -9,21 +9,53 @@
     <link rel="stylesheet" href="estiloHome.css"/>
     <script src="dinamicoHome.js" defer></script> 
 </head>
-<body>
+<body name="body">
+    <div id="divBody">
     <h2 id="NombreHome">Social <br> Lampropeltis <br> alterna</h2>
     <img id="huella" src="Imagenes/huella.png" >
-    <form class="login" name="formHome">
+    <form class="login" name="formHome" id="userLogin" action="./Feed/feed.html">
         <div id="divUserName">
-        <input name="TagUserName" class="CajaUser" value="Username" size="11"/> <input name="UserName" class="inputBox" id="UserN"> 
+        <label for="name" class="labels" id="labelUser"> Usuario: </label> <input name="UserName" class="inputBox" id="UserN" required> 
         </div>
         <div id="divPassword">
-            <input name="TagPassword" class="CajaUser" value="Password" size="11"/> <input name="Password" type="password" class="inputBox"> 
+            <label for="contraseña" class="labels" id="labelPass"> Contraseña: </label> <input name="Password" type="password" class="inputBox" id="passUsuario" required> 
             </div>
+        <button type="submit" id="loginButton" name="buttonLogin" value="Enviar">Entrar</button>
     </form>
+    <!-- <button id="buttonEjemplo" name="ejemplobutton">send</button>
+    <div id="texto">
+    <input type="text" id="inputEjemplo" name="" onkeyup="mostrar(this.value)" cols="50" rows="10"> </div>
+    <div id="resultado"> -->
 
-    <button id="loginButton" name="buttonLogin" >Log in</button>
-    <br>
-    <p id="linea">______________________________</p>
-    <p id="dh">Don't have an account? <a href="https://misiontic.uninorte.edu.co/"><strong class="enlace"> Sign Up</strong></p></a>
+    </div>
+        <br>
+    
+    <p id="dh">No tienes una cuenta? <button type="submit" id="modalButton"><strong class="Sign"> Registrate</strong></button></p>
+    
+    
+    </div>
+    <div id="modalContainer" class="container">
+    <div class="Modal">
+        <h1 id="TitleSignUp">Social Lampropeltis alterna </h1>
+        <h3 id="TitleRegistrate">Registrate para ver las fotos de las mascotas de tus amigos</h3>
+        <form id="registro" name="formRegistro">
+            <input type="text" name="correoElectronico" placeholder="Correo" required class="reg" id="signUpEmail">
+            <br>
+            <input type="text" name="nombreCompleto" placeholder="Nombre Completo" required class="reg" id="signUpName">
+            <br>
+            <input type="text" name="nombreUsuario" placeholder="Nombre de Usuario" required class="reg" id="signUpUser">
+            <br>
+            <input type="password" name="contraseña" placeholder="Contraseña" required class="reg" id="signUpPassword">
+            <br>
+            <div id="Botones">
+                <button type="submit" id="signUpButton" class="botonesRegistro">Registrate</button>
+                <button type="submit" id="signUpCerrar" class="botonesRegistro">Cerrar</button>
+                </div>
+        </form>
+
+        
+        
+        <footer id="signUpFooter">By signning up, you agree to our terms, Privicy policy and Cookies policy</footer>
+      </div>  
 </body>
 </html>

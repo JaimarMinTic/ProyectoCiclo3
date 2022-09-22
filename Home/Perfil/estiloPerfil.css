@@ -1,0 +1,122 @@
+#mainHeader{
+    color: black;
+    padding: 2rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: white;
+
+}
+
+#headerNavegation{
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+
+.navegation ul{
+    width: 100%;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    animation: none;
+    /* background: whitesmoke; */
+    border-bottom-color: rgb(207, 204, 204);
+    border-style:solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 1%;
+
+}
+
+.navegation ul li{
+    display: inline-block;
+    justify-content: space-between;
+    animation: none;
+    width: 19%;
+    margin-right: 0;
+    border-bottom-color: black;
+    text-align: center;
+    justify-items: center;
+   
+}
+
+.navegation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    border-bottom-color: black;
+    
+}
+
+.navegation ul li:hover {
+    background: rgb(240, 238, 238);
+    border-radius: 10%;
+    transition: all 0.4s linear;
+}
+
+#nombreSocial{
+    color: rgb(24, 160, 251);
+    font-weight: bolder;
+    font-size: large;
+}
+.underline{
+    width: 100%;
+    color: rgb(221, 218, 218);
+}
+
+#cajaUser{
+    margin-top: 2%;
+    width: 48%;
+    padding: 0.5%;
+    margin: auto;
+    background-color: rgb(245, 243, 243);
+    border-radius: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#imgPerfil{
+    width: 70x;
+    height: 70px;
+    margin-left: 45%;
+    margin-top: 3.5%;
+    
+
+
+}
+
+
+#username{
+    text-align: center;
+    margin-left: 39%;
+    border-color: transparent;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 15%;
+    padding: 0.5%;
+    font-size: larger;
+    
+}
+
+#linea{
+    text-align: center;
+    color: #0099CC;
+    opacity: 0.5;
+    margin-top:-0.8%;
+}
+
+#cajaFotos{
+    text-align: center;
+}
+
+#foto4{
+    margin-left: -27%;
+}

@@ -1,0 +1,167 @@
+#mainHeader{
+    color: black;
+    padding: 2rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: white;
+
+}
+
+#headerNavegation{
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+
+
+.navegation ul{
+    width: 100%;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    animation: none;
+    /* background: whitesmoke; */
+    border-bottom-color: rgb(207, 204, 204);
+    border-style:solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 1%;
+
+}
+
+.navegation ul li{
+    display: inline-block;
+    justify-content: space-between;
+    animation: none;
+    width: 19%;
+    margin-right: 0;
+    border-bottom-color: black;
+    text-align: center;
+    justify-items: center;
+   
+}
+
+.navegation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    border-bottom-color: black;
+    
+}
+
+.navegation ul li:hover {
+    background: rgb(240, 238, 238);
+    border-radius: 10%;
+    transition: all 0.4s linear;
+}
+
+#nombreSocial{
+    color: rgb(24, 160, 251);
+    font-weight: bolder;
+    font-size: large;
+}
+.underline{
+    width: 100%;
+    color: rgb(221, 218, 218);
+}
+
+#nuevaPublicacion{
+    width: 100%;
+    font-size: 200%;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%; 
+}
+
+.publishButtons{
+    justify-items: right;
+    margin-top: 2%;
+    width: 14%;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+    border-radius: 10%; 
+    margin-bottom: 5%;
+}
+
+#seleccionar{
+    margin-left: 70%;
+    background: white;
+    color: rgb(24, 160, 251);
+    border-style: solid;
+    border-color: rgb(24, 160, 251);
+    margin-right: 2%;
+}
+
+#seleccionar:hover{
+    background-color: rgb(18, 105, 163);
+}
+
+#publicar{
+    background: rgb(24, 160, 251);
+    color: white;
+    border-style: none;
+}
+
+
+#publicar:hover {
+    background: rgb(224, 222, 222);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    line-height: 1.4em;
+    margin: 0;
+}
+
+.main{
+    margin-top: 15%;
+}
+
+.mainContainer{
+   
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.images{
+    width: 100%;
+}
+
+.imageElements{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Comment{
+    position: relative;
+    right: 0;
+    background: rgb(24, 160, 251);
+    color: white;
+    margin-left: 70%;
+    border-radius: 5px;
+    border-style: none;
+    padding: 1%;
+}
+
+.Comment:hover{
+    background-color: rgb(18, 105, 163);
+    cursor: pointer;
+}
+
+
+
+.footer{
+    color: rgb(187, 185, 185);
+    text-align: center;
+}
